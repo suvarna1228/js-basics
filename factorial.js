@@ -5,6 +5,6 @@ function factorial(n){
     }
     return result
 }
-console.log(fibonacci(2))
-console.log(fibonacci(3))
+console.log(factorial(2))
+console.log(factorial(3))
  
