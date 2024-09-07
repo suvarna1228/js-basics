@@ -12,4 +12,4 @@ function poweroftwo(n){
 }
 console.log(poweroftwo(1))
 console.log(poweroftwo(6))
-console.log(poweroftwo(4))
+console.log(poweroftwo(8))
