@@ -13,4 +13,3 @@ console.log(obj['age']);
 console.log(obj['key-three']);
 console.log(obj);
 obj.saymyname()
-// .key(),.values(),.eentries()
