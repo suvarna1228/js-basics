@@ -101,6 +101,20 @@ class LinkedList {
         return value;
       }
     }
+    
+    search(value){
+      if(this.isEmpty()){
+        return -1;
+      }
+      let i=0;
+      let curr = this.head;
+      while(curr){
+        if(curr.value === value){
+          return i;
+        }
+        return -1;
+      }
+    }
     print(){
       if(this.isEmpty()){
         console.log('List is Empty')
