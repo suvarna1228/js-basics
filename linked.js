@@ -115,6 +115,16 @@ class LinkedList {
         return -1;
       }
     }
+    reverse(){
+      let prev = null;
+      let curr = this.heed;
+      while(curr){
+        let next = prev;
+        prev = curr;
+        curr = next;
+      }
+      this.head = prev;
+    }
     print(){
       if(this.isEmpty()){
         console.log('List is Empty')
@@ -147,5 +157,5 @@ list.removeValue(10);
 list.print();
 list.insert(10,0);
 list.print();
-list.removeFrom(10);
+// list.removeFrom(10);
 list.print();
