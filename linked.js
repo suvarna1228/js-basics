@@ -20,7 +20,7 @@ class LinkedList {
     }
 
     preappend(value) {
-        const node = new Node(value); // Corrected reference to Node
+        const node = new Node(value); 
         if (this.isEmpty()) {
             this.head = node;
         } else {
